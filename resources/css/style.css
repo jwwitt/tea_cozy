@@ -1,0 +1,43 @@
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color:seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+a {
+    font-size: 22px;
+    color: seashell;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+.logo {
+    display: flex;
+    height: 50px;
+    width: auto;
+    padding: 10px;
+}
+
+nav {
+    padding: 10px;
+}
+
+.body {
+    display: flex;
+    background-image: url('resources/images/img-mission-background.jpg');
+    heihgt: 700px;
+}
+
